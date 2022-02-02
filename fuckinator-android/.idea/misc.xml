@@ -3,7 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+<<<<<<< HEAD
         <entry key="..\:/javaThings/fuckinator/fuckinator-android/app/src/main/res/layout/activity_main.xml" value="0.264" />
+=======
+        <entry key="..\:/Android/Fuckinator/fuckinator/fuckinator-android/app/src/main/res/layout/activity_main.xml" value="0.5541666666666667" />
+        <entry key="..\:/Android/Fuckinator/fuckinator/fuckinator-android/app/src/main/res/layout/fragment_title.xml" value="0.25" />
+>>>>>>> 2a9bf299391fc38326e94a0a65bbadc4d5e19627
       </map>
     </option>
   </component>
