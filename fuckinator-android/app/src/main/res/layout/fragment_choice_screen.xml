@@ -45,8 +45,8 @@
             android:src="@drawable/moshe"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="1.0"
-            tools:layout_editor_absoluteX="-5dp" />
+            app:layout_constraintVertical_bias="0.516"
+            tools:layout_editor_absoluteX="-28dp" />
 
         <TextView
             android:id="@+id/textView3"
@@ -55,9 +55,9 @@
             android:text="Qustion"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.078"
+            app:layout_constraintHorizontal_bias="0.052"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.229" />
+            app:layout_constraintVertical_bias="0.264" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>
