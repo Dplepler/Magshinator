@@ -36,6 +36,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:backgroundTint="#00FFFFFF"
+            android:contentDescription="Play button"
             android:src="@drawable/ic_playbutton" />
 
     </LinearLayout>
