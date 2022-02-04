@@ -11,53 +11,54 @@
         android:layout_height="match_parent">
 
         <Button
-            android:id="@+id/button7"
+            android:id="@+id/YesButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="72dp"
             android:text="Yes"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.219"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.894" />
 
         <Button
-            android:id="@+id/button8"
+            android:id="@+id/NoButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="597dp"
             android:text="no"
             app:iconTint="#FFFFFF"
+            app:layout_constraintBaseline_toBaselineOf="@+id/YesButton"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.823"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/YesButton"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.162"
             app:rippleColor="@color/white" />
 
         <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="466dp"
-            android:layout_height="762dp"
+            android:id="@+id/Choice1MoshePic"
+            android:layout_width="400dp"
+            android:layout_height="400dp"
             android:background="#595454"
             android:src="@drawable/moshe"
             app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="1.0"
-            tools:layout_editor_absoluteX="-5dp" />
+            app:layout_constraintVertical_bias="0.519" />
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/Question1Text"
             android:layout_width="104dp"
             android:layout_height="81dp"
             android:text="Qustion"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.078"
+            app:layout_constraintHorizontal_bias="0.052"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.229" />
+            app:layout_constraintVertical_bias="0.303" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>
