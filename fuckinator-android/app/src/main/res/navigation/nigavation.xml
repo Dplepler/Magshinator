@@ -18,22 +18,5 @@
         android:id="@+id/choiceScreen"
         android:name="com.example.fuckinator.choiceScreen"
         android:label="fragment_choice_screen"
-        tools:layout="@layout/fragment_choice_screen" >
-        <action
-            android:id="@+id/action_choiceScreen_to_choiceScreen3"
-            app:destination="@id/choiceScreen3" />
-        <action
-            android:id="@+id/action_choiceScreen_to_choiceScreen4"
-            app:destination="@id/choiceScreen4" />
-    </fragment>
-    <fragment
-        android:id="@+id/choiceScreen3"
-        android:name="com.example.fuckinator.choiceScreen"
-        android:label="fragment_choice_screen"
-        tools:layout="@layout/fragment_choice_screen" />
-    <fragment
-        android:id="@+id/choiceScreen4"
-        android:name="com.example.fuckinator.choiceScreen"
-        android:label="fragment_choice_screen"
         tools:layout="@layout/fragment_choice_screen" />
 </navigation>
