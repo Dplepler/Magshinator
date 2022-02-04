@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/titleFragment"
-        android:name="com.example.fuckinator.TitleFragment"
+        android:name="com.example.fuckinator.title.TitleFragment"
         android:label="fragment_title"
         tools:layout="@layout/fragment_title" >
         <action
@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/choiceScreen"
-        android:name="com.example.fuckinator.choiceScreen"
+        android:name="com.example.fuckinator.choicescreen.choiceScreen"
         android:label="fragment_choice_screen"
         tools:layout="@layout/fragment_choice_screen" />
 </navigation>

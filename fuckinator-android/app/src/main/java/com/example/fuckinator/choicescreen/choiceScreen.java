@@ -1,4 +1,4 @@
-package com.example.fuckinator;
+package com.example.fuckinator.choicescreen;
 
 import android.os.Bundle;
 
@@ -7,6 +7,8 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import com.example.fuckinator.R;
 
 public class choiceScreen extends Fragment {
 
