@@ -11,9 +11,9 @@
             android:id="@+id/LinearLayout"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:background="#00191515"
             android:gravity="center_vertical"
-            android:orientation="vertical"
-            android:background="#DA191515">
+            android:orientation="vertical">
 
             <TextView
                 android:id="@+id/TitleText"
@@ -25,34 +25,12 @@
                 android:textSize="20sp"
                 android:textStyle="bold|italic" />
 
-<<<<<<< HEAD
-            <
-
-            <
-
-            <
-
-            <
-
-            <
-
-            <
-
-            < HEAD
-
-            <ImageButton
-                android:id="@+id/PlayButton"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:backgroundTint="#00FFFFFF"
-                android:contentDescription="Play button"
-                android:src="@drawable/ic_playbutton" />
             =======
 
-=======
             =======
->>>>>>> 0dcab8ad38df934d9f1483ad258a4994f83ec292
+            =======
+            >>>>>>> 0dcab8ad38df934d9f1483ad258a4994f83ec292
+
             <ImageView
                 android:id="@+id/MoshePic"
                 android:layout_width="210dp"
