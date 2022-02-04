@@ -20,9 +20,7 @@ class TitleFragment : Fragment() {
         // Inflate the layout for this fragment
         binding = DataBindingUtil.inflate<FragmentTitleBinding>(inflater, R.layout.fragment_title, container, false)
 
-
-        binding.PlayButton.setOnClickListener { it.findNavController().navigate(R.id.action_titleFragment_to_choiceScreen)}
-
+        binding.PlayButton.setOnClickListener { it.findNavController().navigate(R.id.action_titleFragment_to_choiceScreen) }
 
         return binding.root
     }
