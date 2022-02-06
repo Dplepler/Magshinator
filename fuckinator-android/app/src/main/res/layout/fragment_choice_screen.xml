@@ -1,65 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".choicescreen.choiceScreen">
-
-    <androidx.constraintlayout.widget.ConstraintLayout
+<layout>
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#DD100E0E"
-        android:foregroundTint="@color/teal_200">
+        tools:context=".choicescreen.choiceScreen">
 
-        <Button
-            android:id="@+id/YesButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="72dp"
-            android:text="Yes"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.894" />
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#DD100E0E"
+            android:foregroundTint="@color/teal_200">
 
-        <Button
-            android:id="@+id/NoButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="597dp"
-            android:text="no"
-            app:iconTint="#FFFFFF"
-            app:layout_constraintBaseline_toBaselineOf="@+id/YesButton"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/YesButton"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.162"
-            app:rippleColor="@color/white" />
+            <Button
+                android:id="@+id/YesButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="72dp"
+                android:text="Yes"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.894" />
 
-        <ImageView
-            android:id="@+id/Choice1MoshePic"
-            android:layout_width="408dp"
-            android:layout_height="409dp"
-            android:background="#595454"
-            android:src="@drawable/moshe"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            <Button
+                android:id="@+id/NoButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="597dp"
+                android:text="no"
+                app:iconTint="#FFFFFF"
+                app:layout_constraintBaseline_toBaselineOf="@+id/YesButton"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/YesButton"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.162"
+                app:rippleColor="@color/white" />
 
-        <TextView
-            android:id="@+id/Question1Text"
-            android:layout_width="104dp"
-            android:layout_height="81dp"
-            android:text="Qustion"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.052"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.303" />
-    </androidx.constraintlayout.widget.ConstraintLayout>
-</FrameLayout>
+            <ImageView
+                android:id="@+id/Choice1MoshePic"
+                android:layout_width="408dp"
+                android:layout_height="409dp"
+                android:background="#595454"
+                android:src="@drawable/moshe"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/Question1Text"
+                android:layout_width="104dp"
+                android:layout_height="81dp"
+                android:text="Qustion"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.052"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.303" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </FrameLayout>
+</layout>
