@@ -40,7 +40,7 @@
                 app:rippleColor="@color/white" />
 
             <ImageView
-                android:id="@+id/Choice1MoshePic"
+                android:id="@+id/ChoiceMoshePic"
                 android:layout_width="408dp"
                 android:layout_height="409dp"
                 android:background="#595454"
@@ -52,7 +52,7 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
-                android:id="@+id/Question1Text"
+                android:id="@+id/QuestionText"
                 android:layout_width="104dp"
                 android:layout_height="81dp"
                 android:text="Qustion"
