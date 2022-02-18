@@ -1,5 +1,6 @@
 package com.example.fuckinator.choicescreen
 
+import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.example.fuckinator.GameCharacter
 
@@ -7,7 +8,13 @@ class ChoiceViewModel: ViewModel() {
 
     private var questionData = arrayOf<String> ("האם הדמות שך סחית?", "האם הדמות שלך גרה מחוץ לבאר שבע?", "שיער שופע?", "גיי?", "חתיך?", "מצחיק?", "אפס?", "חבר של ליחי סוויסו?")
 
+<<<<<<< HEAD
     private var GameCharacterList = mutableListOf<GameCharacter>()
+=======
+    private var curQuestion = MutableLiveData<String>()
+
+    private var characterList = mutableListOf<Character>()
+>>>>>>> 0ac7a27cca9800ecc18cbe56770f159ba2eeb44f
 
 
 
