@@ -1,11 +1,11 @@
 package com.example.fuckinator
 
-class Character(val name: String, private val answers: Array<Float>, _score: Float) {
+class GameCharacter(val name: String, private val answers: Array<Boolean>, _score: Float = 0f) {
 
     var score = _score
         private set
 
-    fun updateScore(index: Int, markedTrue: Boolean) {
-        this.score += if (markedTrue) { this.answers[index] } else { -this.answers[index] / 2 }
+    fun updateScore(index: Int, saidYes: Boolean) {
+        this.score += if (saidYes == this.answers[index]) { 1.0f } else { -.5f }
     }
 }
