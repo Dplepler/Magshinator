@@ -7,12 +7,6 @@
  The project is composed of mostly kotlin and java using the Android SDK.
 
 
-## Table Of Contents
-
- - [Installation] (##Installation and running the project)
- - [How to use] (##How to use the projet (WIP))
- - [Credits] (##Credits)
-
 
 ## Installation and running the project
 
@@ -34,8 +28,8 @@
 
 ## Credits
 
- Gal Aloni - [ https://gitlab.com/Bachuchee ]
+ Gal Aloni - [GitLab](https://gitlab.com/Bachuchee)
 
- Lihay Swissa - [ https://gitlab.com/lilihay ], [ https://github.com/lihaySwiss ]
+ Lihay Swissa - [GitLab](https://gitlab.com/lilihay), [GitHub](https://github.com/lihaySwiss)
 
- David Plepler - [ https://github.com/Dplepler/ ]
+ David Plepler - [GitHub](https://github.com/Dplepler/)
